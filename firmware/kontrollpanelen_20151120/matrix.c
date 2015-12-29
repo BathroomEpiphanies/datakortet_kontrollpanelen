@@ -138,14 +138,14 @@ static void init_rows(void)
 
 static uint8_t read_rows(void)
 {
-    return (PINB&(1<<4) ? 0 : (1<<0)) |
-           (PINB&(1<<5) ? 0 : (1<<1)) |
-           (PINB&(1<<6) ? 0 : (1<<2)) |
-           (PINC&(1<<2) ? 0 : (1<<3)) |
-           (PINC&(1<<7) ? 0 : (1<<4)) |
-           (PIND&(1<<4) ? 0 : (1<<5)) |
-           (PIND&(1<<5) ? 0 : (1<<6)) |
-           (PIND&(1<<6) ? 0 : (1<<7));
+  return (PINC&(1<<7) ? 0 : (1<<0)) |
+    (PINB&(1<<6) ? 0 : (1<<1)) |
+    (PINB&(1<<4) ? 0 : (1<<2)) |
+    (PINB&(1<<5) ? 0 : (1<<3)) |
+    (PINC&(1<<2) ? 0 : (1<<4)) |
+    (PIND&(1<<5) ? 0 : (1<<5)) |
+    (PIND&(1<<6) ? 0 : (1<<6)) |
+    (PIND&(1<<4) ? 0 : (1<<7));
 }
 
 /*  These columns uses twenty 74HC153 dual 1 of 4 demultiplexers (low active).
@@ -180,55 +180,25 @@ static void unselect_cols(void)
     PORTB &= ~0b00001111;
 }
 
+
 static void select_col(uint8_t col)
 {
     switch (col) {
-        case 0:
-            break;
-        case 1:
-            PORTB |= (1<<3);
-            break;
-        case 2:
-            PORTB |= (1<<0);
-            break;
-        case 3:
-            PORTB |= (1<<3) | (1<<0);
-            break;
-        case 4:
-            PORTB |= (1<<2);
-            break;
-        case 5:
-            PORTB |= (1<<3) | (1<<2);
-            break;
-        case 6:
-            PORTB |= (1<<2) | (1<<0);
-            break;
-        case 7:
-            PORTB |= (1<<3) | (1<<2) | (1<<0);
-            break;
-        case 8:
-            PORTB |= (1<<1);
-            break;
-        case 9:
-            PORTB |= (1<<3) | (1<<1);
-            break;
-        case 10:
-            PORTB |= (1<<1) | (1<<0);
-            break;
-        case 11:
-            PORTB |= (1<<3) | (1<<1) | (1<<0);
-            break;
-        case 12:
-            PORTB |= (1<<2) | (1<<1);
-            break;
-        case 13:
-            PORTB |= (1<<3) | (1<<2) | (1<<1);
-            break;
-        case 14:
-            PORTB |= (1<<2) | (1<<1) | (1<<0);
-            break;
-        case 15:
-            PORTB |= (1<<3) | (1<<2) | (1<<1) | (1<<0);
-            break;
+        case 0:  break;
+        case 1:  PORTB |= (1<<1); break;
+        case 2:  PORTB |= (1<<2); break;
+        case 3:  PORTB |= (1<<2) | (1<<1); break;
+        case 4:  PORTB |= (1<<0); break;
+        case 5:  PORTB |= (1<<1) | (1<<0); break;
+        case 6:  PORTB |= (1<<2) | (1<<0); break;
+        case 7:  PORTB |= (1<<2) | (1<<1) | (1<<0); break;
+        case 8:  PORTB |= (1<<3); break;
+        case 9:  PORTB |= (1<<3) | (1<<1); break;
+        case 10: PORTB |= (1<<3) | (1<<2); break;
+        case 11: PORTB |= (1<<3) | (1<<2) | (1<<1); break;
+        case 12: PORTB |= (1<<3) | (1<<0); break;
+        case 13: PORTB |= (1<<3) | (1<<1) | (1<<0); break;
+        case 14: PORTB |= (1<<3) | (1<<2) | (1<<0); break;
+        case 15: PORTB |= (1<<3) | (1<<2) | (1<<1) | (1<<0); break;
     }
 }
