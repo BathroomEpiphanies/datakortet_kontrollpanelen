@@ -1,0 +1,38 @@
+(module Resistor_0603_-_Panasonic_ERJ (layer F.Cu)
+
+  (zone_connect 0)
+
+  (fp_text reference Ref** (at 0 -0.2) (layer F.SilkS) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+  (fp_text value Val** (at 0 0.2) (layer F.Fab) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+
+  (fp_poly (pts (xy -0.75 -0.35) (xy 0.75 -0.35) (xy 0.75 0.35) (xy -0.75 0.35)) (layer F.CrtYd) (width 0.1))
+
+  (pad 1 smd rect (at -0.635 0) (size 0.4572 0.7112) (layers F.Cu))
+  (fp_poly (pts (xy -0.9144 0.3556) (xy -0.9144 -0.3556) (xy -0.3556 -0.3556) (xy -0.3556 0.3556)) (layer F.Cu) (width 0.2032))
+  (fp_poly (pts (xy -0.9144 0.3556) (xy -0.9144 -0.3556) (xy -0.3556 -0.3556) (xy -0.3556 0.3556)) (layer F.Mask) (width 0.3048))
+  (fp_poly (pts (xy -0.9144 0.3556) (xy -0.9144 -0.3556) (xy -0.3556 -0.3556) (xy -0.3556 0.3556)) (layer F.Paste) (width 0.2032))
+
+  (pad 2 smd rect (at 0.635 0) (size 0.4572 0.7112) (layers F.Cu))
+  (fp_poly (pts (xy 0.9144 0.3556) (xy 0.9144 -0.3556) (xy 0.3556 -0.3556) (xy 0.3556 0.3556)) (layer F.Cu) (width 0.2032))
+  (fp_poly (pts (xy 0.9144 0.3556) (xy 0.9144 -0.3556) (xy 0.3556 -0.3556) (xy 0.3556 0.3556)) (layer F.Mask) (width 0.3048))
+  (fp_poly (pts (xy 0.9144 0.3556) (xy 0.9144 -0.3556) (xy 0.3556 -0.3556) (xy 0.3556 0.3556)) (layer F.Paste) (width 0.2032))
+
+)
+
+Date:
+2015-09-21
+
+Documents:
+Panasonic - ERJ resistors - package,footprint.pdf
+
+Size Code:
+0603
+
+Comments:
+  (fp_poly (pts (xy -0.675 -0.325) (xy 0.675 -0.325) (xy 0.675 0.325) (xy -0.675 0.325)) (layer F.Fab) (width 0.1))
+  (fp_poly (pts (xy -0.75 -0.35) (xy 0.75 -0.35) (xy 0.75 0.35) (xy -0.75 0.35)) (layer F.CrtYd) (width 0.1))
+  (fp_poly (pts (xy -0.825 -0.425) (xy 0.825 -0.425) (xy 0.825 0.425) (xy -0.825 0.425)) (layer F.Adhes) (width 0.1))
+  (fp_line (start -1.15 -0.6) (end 1.15 -0.6) (layer F.SilkS) (width 0.1))
+  (fp_line (start 1.15 -0.6) (end 1.15 0.6) (layer F.SilkS) (width 0.1))
+  (fp_line (start 1.15 0.6) (end -1.15 0.6) (layer F.SilkS) (width 0.1))
+  (fp_line (start -1.15 0.6) (end -1.15 -0.6) (layer F.SilkS) (width 0.1))

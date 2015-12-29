@@ -1,0 +1,33 @@
+(module Capacitor_1206_-_Vishay.kicad_mod (layer F.Cu)
+
+  (zone_connect 0)
+
+  (fp_text reference Ref** (at 0 -0.2) (layer F.SilkS) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+  (fp_text value Val** (at 0 0.2) (layer F.SilkS) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+  
+  (fp_poly (pts (xy -1.6 -0.8) (xy 1.6 -0.8) (xy 1.6 0.8) (xy -1.6 0.8)) (layer F.CrtYd) (width 0.1))
+
+  (pad 1 smd rect (at -1.524 0) (size 1.27 1.778) (layers F.Cu))
+  (fp_poly (pts (xy -2.159 0.889) (xy -2.159 -0.889) (xy -0.889 -0.889) (xy -0.889 0.889)) (layer F.Cu) (width 0.3048))
+  (fp_poly (pts (xy -2.159 0.889) (xy -2.159 -0.889) (xy -0.889 -0.889) (xy -0.889 0.889)) (layer F.Mask) (width 0.4064))
+  (fp_poly (pts (xy -2.159 0.889) (xy -2.159 -0.889) (xy -0.889 -0.889) (xy -0.889 0.889)) (layer F.Paste) (width 0.3048))
+
+  (pad 2 smd rect (at 1.524 0) (size 1.27 1.778) (layers F.Cu))
+  (fp_poly (pts (xy 2.159 0.889) (xy 2.159 -0.889) (xy 0.889 -0.889) (xy 0.889 0.889)) (layer F.Cu) (width 0.3048))
+  (fp_poly (pts (xy 2.159 0.889) (xy 2.159 -0.889) (xy 0.889 -0.889) (xy 0.889 0.889)) (layer F.Mask) (width 0.4064))
+  (fp_poly (pts (xy 2.159 0.889) (xy 2.159 -0.889) (xy 0.889 -0.889) (xy 0.889 0.889)) (layer F.Paste) (width 0.3048))
+  
+)
+
+Date:
+2015-09-21
+
+Documents:
+Panasonic - 12TPC capacitor - package.pdf
+Panasonic - 12TPC capacitor - footprint.pdf
+
+Size code:
+B1
+
+Comments:
+  Modified to inch and Vishay

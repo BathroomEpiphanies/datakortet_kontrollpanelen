@@ -1,0 +1,147 @@
+(module TQFP32_-_Atmel (layer F.Cu)
+
+  (zone_connect 0)
+  
+  (fp_text reference Ref** (at 0 -0.2) (layer F.SilkS) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+  (fp_text value Val** (at 0 0.2) (layer F.Fab) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+
+  (fp_poly (pts (xy -3.45 3.45) (xy -3.45 -3.45) (xy 3.45 -3.45) (xy 3.45 3.45)) (layer F.CrtYd) (width 0.1))
+
+  (pad 24 smd circle (at 4.250 -4.250 90.000) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+
+  (pad 1 smd rect (at -4.350 -2.800 90.000) (size 0.400 1.200) (layers F.Cu))  (fp_poly (pts (xy -4.950 -2.600) (xy -4.950 -3.000) (xy -3.750 -3.000) (xy -3.750 -2.600)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 -2.600) (xy -4.950 -3.000) (xy -3.750 -3.000) (xy -3.750 -2.600)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 -2.600) (xy -4.950 -3.000) (xy -3.750 -3.000) (xy -3.750 -2.600)) (layer F.Paste) (width 0.100))
+  (pad 2 smd rect (at -4.250 -2.000 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 -1.800) (xy -4.950 -2.200) (xy -3.550 -2.200) (xy -3.550 -1.800)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 -1.800) (xy -4.950 -2.200) (xy -3.550 -2.200) (xy -3.550 -1.800)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 -1.800) (xy -4.950 -2.200) (xy -3.550 -2.200) (xy -3.550 -1.800)) (layer F.Paste) (width 0.100))
+  (pad 3 smd rect (at -4.250 -1.200 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 -1.000) (xy -4.950 -1.400) (xy -3.550 -1.400) (xy -3.550 -1.000)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 -1.000) (xy -4.950 -1.400) (xy -3.550 -1.400) (xy -3.550 -1.000)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 -1.000) (xy -4.950 -1.400) (xy -3.550 -1.400) (xy -3.550 -1.000)) (layer F.Paste) (width 0.100))
+  (pad 4 smd rect (at -4.250 -0.400 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 -0.200) (xy -4.950 -0.600) (xy -3.550 -0.600) (xy -3.550 -0.200)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 -0.200) (xy -4.950 -0.600) (xy -3.550 -0.600) (xy -3.550 -0.200)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 -0.200) (xy -4.950 -0.600) (xy -3.550 -0.600) (xy -3.550 -0.200)) (layer F.Paste) (width 0.100))
+  (pad 5 smd rect (at -4.250 0.400 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 0.600) (xy -4.950 0.200) (xy -3.550 0.200) (xy -3.550 0.600)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 0.600) (xy -4.950 0.200) (xy -3.550 0.200) (xy -3.550 0.600)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 0.600) (xy -4.950 0.200) (xy -3.550 0.200) (xy -3.550 0.600)) (layer F.Paste) (width 0.100))
+  (pad 6 smd rect (at -4.250 1.200 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 1.400) (xy -4.950 1.000) (xy -3.550 1.000) (xy -3.550 1.400)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 1.400) (xy -4.950 1.000) (xy -3.550 1.000) (xy -3.550 1.400)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 1.400) (xy -4.950 1.000) (xy -3.550 1.000) (xy -3.550 1.400)) (layer F.Paste) (width 0.100))
+  (pad 7 smd rect (at -4.250 2.000 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 2.200) (xy -4.950 1.800) (xy -3.550 1.800) (xy -3.550 2.200)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 2.200) (xy -4.950 1.800) (xy -3.550 1.800) (xy -3.550 2.200)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 2.200) (xy -4.950 1.800) (xy -3.550 1.800) (xy -3.550 2.200)) (layer F.Paste) (width 0.100))
+  (pad 8 smd rect (at -4.250 2.800 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -4.950 3.000) (xy -4.950 2.600) (xy -3.550 2.600) (xy -3.550 3.000)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -4.950 3.000) (xy -4.950 2.600) (xy -3.550 2.600) (xy -3.550 3.000)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -4.950 3.000) (xy -4.950 2.600) (xy -3.550 2.600) (xy -3.550 3.000)) (layer F.Paste) (width 0.100))
+  (pad 9 smd rect (at -2.800 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -2.600 4.950) (xy -2.600 3.550) (xy -3.000 3.550) (xy -3.000 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -2.600 4.950) (xy -2.600 3.550) (xy -3.000 3.550) (xy -3.000 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -2.600 4.950) (xy -2.600 3.550) (xy -3.000 3.550) (xy -3.000 4.950)) (layer F.Paste) (width 0.100))
+  (pad 10 smd rect (at -2.000 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -1.800 4.950) (xy -1.800 3.550) (xy -2.200 3.550) (xy -2.200 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -1.800 4.950) (xy -1.800 3.550) (xy -2.200 3.550) (xy -2.200 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -1.800 4.950) (xy -1.800 3.550) (xy -2.200 3.550) (xy -2.200 4.950)) (layer F.Paste) (width 0.100))
+  (pad 11 smd rect (at -1.200 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -1.000 4.950) (xy -1.000 3.550) (xy -1.400 3.550) (xy -1.400 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -1.000 4.950) (xy -1.000 3.550) (xy -1.400 3.550) (xy -1.400 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -1.000 4.950) (xy -1.000 3.550) (xy -1.400 3.550) (xy -1.400 4.950)) (layer F.Paste) (width 0.100))
+  (pad 12 smd rect (at -0.400 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -0.200 4.950) (xy -0.200 3.550) (xy -0.600 3.550) (xy -0.600 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -0.200 4.950) (xy -0.200 3.550) (xy -0.600 3.550) (xy -0.600 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -0.200 4.950) (xy -0.200 3.550) (xy -0.600 3.550) (xy -0.600 4.950)) (layer F.Paste) (width 0.100))
+  (pad 13 smd rect (at 0.400 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 0.600 4.950) (xy 0.600 3.550) (xy 0.200 3.550) (xy 0.200 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 0.600 4.950) (xy 0.600 3.550) (xy 0.200 3.550) (xy 0.200 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 0.600 4.950) (xy 0.600 3.550) (xy 0.200 3.550) (xy 0.200 4.950)) (layer F.Paste) (width 0.100))
+  (pad 14 smd rect (at 1.200 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 1.400 4.950) (xy 1.400 3.550) (xy 1.000 3.550) (xy 1.000 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 1.400 4.950) (xy 1.400 3.550) (xy 1.000 3.550) (xy 1.000 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 1.400 4.950) (xy 1.400 3.550) (xy 1.000 3.550) (xy 1.000 4.950)) (layer F.Paste) (width 0.100))
+  (pad 15 smd rect (at 2.000 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 2.200 4.950) (xy 2.200 3.550) (xy 1.800 3.550) (xy 1.800 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 2.200 4.950) (xy 2.200 3.550) (xy 1.800 3.550) (xy 1.800 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 2.200 4.950) (xy 2.200 3.550) (xy 1.800 3.550) (xy 1.800 4.950)) (layer F.Paste) (width 0.100))
+  (pad 16 smd rect (at 2.800 4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.000 4.950) (xy 3.000 3.550) (xy 2.600 3.550) (xy 2.600 4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.000 4.950) (xy 3.000 3.550) (xy 2.600 3.550) (xy 2.600 4.950)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.000 4.950) (xy 3.000 3.550) (xy 2.600 3.550) (xy 2.600 4.950)) (layer F.Paste) (width 0.100))
+  (pad 17 smd rect (at 4.250 2.800 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 3.000) (xy 3.550 2.600) (xy 4.950 2.600) (xy 4.950 3.000)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 3.000) (xy 3.550 2.600) (xy 4.950 2.600) (xy 4.950 3.000)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 3.000) (xy 3.550 2.600) (xy 4.950 2.600) (xy 4.950 3.000)) (layer F.Paste) (width 0.100))
+  (pad 18 smd rect (at 4.250 2.000 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 2.200) (xy 3.550 1.800) (xy 4.950 1.800) (xy 4.950 2.200)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 2.200) (xy 3.550 1.800) (xy 4.950 1.800) (xy 4.950 2.200)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 2.200) (xy 3.550 1.800) (xy 4.950 1.800) (xy 4.950 2.200)) (layer F.Paste) (width 0.100))
+  (pad 19 smd rect (at 4.250 1.200 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 1.400) (xy 3.550 1.000) (xy 4.950 1.000) (xy 4.950 1.400)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 1.400) (xy 3.550 1.000) (xy 4.950 1.000) (xy 4.950 1.400)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 1.400) (xy 3.550 1.000) (xy 4.950 1.000) (xy 4.950 1.400)) (layer F.Paste) (width 0.100))
+  (pad 20 smd rect (at 4.250 0.400 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 0.600) (xy 3.550 0.200) (xy 4.950 0.200) (xy 4.950 0.600)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 0.600) (xy 3.550 0.200) (xy 4.950 0.200) (xy 4.950 0.600)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 0.600) (xy 3.550 0.200) (xy 4.950 0.200) (xy 4.950 0.600)) (layer F.Paste) (width 0.100))
+  (pad 21 smd rect (at 4.250 -0.400 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 -0.200) (xy 3.550 -0.600) (xy 4.950 -0.600) (xy 4.950 -0.200)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 -0.200) (xy 3.550 -0.600) (xy 4.950 -0.600) (xy 4.950 -0.200)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 -0.200) (xy 3.550 -0.600) (xy 4.950 -0.600) (xy 4.950 -0.200)) (layer F.Paste) (width 0.100))
+  (pad 22 smd rect (at 4.250 -1.200 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 -1.000) (xy 3.550 -1.400) (xy 4.950 -1.400) (xy 4.950 -1.000)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 -1.000) (xy 3.550 -1.400) (xy 4.950 -1.400) (xy 4.950 -1.000)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 -1.000) (xy 3.550 -1.400) (xy 4.950 -1.400) (xy 4.950 -1.000)) (layer F.Paste) (width 0.100))
+  (pad 23 smd rect (at 4.250 -2.000 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 -1.800) (xy 3.550 -2.200) (xy 4.950 -2.200) (xy 4.950 -1.800)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 -1.800) (xy 3.550 -2.200) (xy 4.950 -2.200) (xy 4.950 -1.800)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 -1.800) (xy 3.550 -2.200) (xy 4.950 -2.200) (xy 4.950 -1.800)) (layer F.Paste) (width 0.100))
+  (pad 24 smd rect (at 4.250 -2.800 90.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.550 -2.600) (xy 3.550 -3.000) (xy 4.950 -3.000) (xy 4.950 -2.600)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.550 -2.600) (xy 3.550 -3.000) (xy 4.950 -3.000) (xy 4.950 -2.600)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.550 -2.600) (xy 3.550 -3.000) (xy 4.950 -3.000) (xy 4.950 -2.600)) (layer F.Paste) (width 0.100))
+  (pad 25 smd rect (at 2.800 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 3.000 -3.550) (xy 3.000 -4.950) (xy 2.600 -4.950) (xy 2.600 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 3.000 -3.550) (xy 3.000 -4.950) (xy 2.600 -4.950) (xy 2.600 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 3.000 -3.550) (xy 3.000 -4.950) (xy 2.600 -4.950) (xy 2.600 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 26 smd rect (at 2.000 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 2.200 -3.550) (xy 2.200 -4.950) (xy 1.800 -4.950) (xy 1.800 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 2.200 -3.550) (xy 2.200 -4.950) (xy 1.800 -4.950) (xy 1.800 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 2.200 -3.550) (xy 2.200 -4.950) (xy 1.800 -4.950) (xy 1.800 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 27 smd rect (at 1.200 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 1.400 -3.550) (xy 1.400 -4.950) (xy 1.000 -4.950) (xy 1.000 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 1.400 -3.550) (xy 1.400 -4.950) (xy 1.000 -4.950) (xy 1.000 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 1.400 -3.550) (xy 1.400 -4.950) (xy 1.000 -4.950) (xy 1.000 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 28 smd rect (at 0.400 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy 0.600 -3.550) (xy 0.600 -4.950) (xy 0.200 -4.950) (xy 0.200 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 0.600 -3.550) (xy 0.600 -4.950) (xy 0.200 -4.950) (xy 0.200 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy 0.600 -3.550) (xy 0.600 -4.950) (xy 0.200 -4.950) (xy 0.200 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 29 smd rect (at -0.400 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -0.200 -3.550) (xy -0.200 -4.950) (xy -0.600 -4.950) (xy -0.600 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -0.200 -3.550) (xy -0.200 -4.950) (xy -0.600 -4.950) (xy -0.600 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -0.200 -3.550) (xy -0.200 -4.950) (xy -0.600 -4.950) (xy -0.600 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 30 smd rect (at -1.200 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -1.000 -3.550) (xy -1.000 -4.950) (xy -1.400 -4.950) (xy -1.400 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -1.000 -3.550) (xy -1.000 -4.950) (xy -1.400 -4.950) (xy -1.400 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -1.000 -3.550) (xy -1.000 -4.950) (xy -1.400 -4.950) (xy -1.400 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 31 smd rect (at -2.000 -4.250 0.000) (size 0.400 1.400) (layers F.Cu))  (fp_poly (pts (xy -1.800 -3.550) (xy -1.800 -4.950) (xy -2.200 -4.950) (xy -2.200 -3.550)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -1.800 -3.550) (xy -1.800 -4.950) (xy -2.200 -4.950) (xy -2.200 -3.550)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -1.800 -3.550) (xy -1.800 -4.950) (xy -2.200 -4.950) (xy -2.200 -3.550)) (layer F.Paste) (width 0.100))
+  (pad 32 smd rect (at -2.800 -4.350 0.000) (size 0.400 1.200) (layers F.Cu))  (fp_poly (pts (xy -2.600 -3.750) (xy -2.600 -4.950) (xy -3.000 -4.950) (xy -3.000 -3.750)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy -2.600 -3.750) (xy -2.600 -4.950) (xy -3.000 -4.950) (xy -3.000 -3.750)) (layer F.Mask) (width 0.150))  (fp_poly (pts (xy -2.600 -3.750) (xy -2.600 -4.950) (xy -3.000 -4.950) (xy -3.000 -3.750)) (layer F.Paste) (width 0.100))
+
+)
+  (pad 24 smd rect (at 4.250 -4.250 90.000) (size 0.400 1.200) (layers F.Cu))  (fp_poly (pts (xy 4.950 -4.950) (xy 4.950 -3.550) (xy 3.550 -3.550) (xy 3.550 -4.950)) (layer F.Cu) (width 0.100))  (fp_poly (pts (xy 4.950 -4.950) (xy 4.950 -3.550) (xy 3.550 -3.550) (xy 3.550 -4.950)) (layer F.Mask) (width 0.150))
+
+
+  (pad 1 smd oval (at -4.25 -2.8 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd oval (at -4.25 -2 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 3 smd oval (at -4.25 -1.2 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 4 smd oval (at -4.25 -0.4 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd oval (at -4.25 0.4 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd oval (at -4.25 1.2 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 7 smd oval (at -4.25 2 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 8 smd oval (at -4.25 2.8 0) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 9 smd oval (at -2.8 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 10 smd oval (at -2 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 11 smd oval (at -1.2 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 12 smd oval (at -0.4 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 13 smd oval (at 0.4 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 14 smd oval (at 1.2 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 15 smd oval (at 2 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 16 smd oval (at 2.8 4.25 90) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 17 smd oval (at 4.25 2.8 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 18 smd oval (at 4.25 2 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 19 smd oval (at 4.25 1.2 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 20 smd oval (at 4.25 0.4 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 21 smd oval (at 4.25 -0.4 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 22 smd oval (at 4.25 -1.2 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 23 smd oval (at 4.25 -2 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 24 smd oval (at 4.25 -2.8 180) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 25 smd oval (at 2.8 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 26 smd oval (at 2 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 27 smd oval (at 1.2 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 28 smd oval (at 0.4 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 29 smd oval (at -0.4 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 30 smd oval (at -1.2 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 31 smd oval (at -2 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+  (pad 32 smd oval (at -2.8 -4.25 270) (size 1.5 0.4) (layers F.Cu F.Mask F.Paste))
+
+  (pad 17 smd circle (at 3.6 4.25 90) (size 0.1 0.1) (layers F.Cu F.Mask F.Paste))
+
+
+
+
+Date:
+2015-09-22
+
+Documents:
+Atmel Mounting Guidelines for Surface Mount Packages.pdf
+
+Size Code:
+
+
+Comments:
+Pads have been slimmed down to give room for solder mask and facilitate routing..
+  (fp_poly (pts (xy -3.45 3.45) (xy -3.45 -3.45) (xy 3.45 -3.45) (xy 3.45 3.45)) (layer F.Fab) (width 0.1))
+  (fp_poly (pts (xy -3.45 3.45) (xy -3.45 -3.45) (xy 3.45 -3.45) (xy 3.45 3.45)) (layer F.CrtYd) (width 0.1))
+  (fp_poly (pts (xy -3.45 3.45) (xy -3.45 -3.45) (xy 3.45 -3.45) (xy 3.45 3.45)) (layer F.Adhes) (width 0.1))
+  (fp_circle (center -2.1 -2.1) (end -2.1 -1.8) (layer F.SilkS) (width 0.16))
+  (fp_line (start -3 3) (end -3 -2.4) (layer F.SilkS) (width 0.2))
+  (fp_line (start -3 -2.4) (end -2.4 -3) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.4 -3) (end 3 -3) (layer F.SilkS) (width 0.2))
+  (fp_line (start 3 -3) (end 3 3) (layer F.SilkS) (width 0.2))
+  (fp_line (start 3 3) (end -3 3) (layer F.SilkS) (width 0.2))
+
+## Pad definitions ##
+
+Pad Size
+x       y     radius
+0.5     1.5   0.1
+
+Pad coordinates
+x      y      rotation
+-4.25  -2.8   90
+-4.25  -2.0   90
+-4.25  -1.2   90
+-4.25  -0.4   90
+-4.25   0.4   90
+-4.25   1.2   90
+-4.25   2.0   90
+-4.25   2.8   90
+-2.8   4.25    0
+-2.0   4.25    0
+-1.2   4.25    0
+-0.4   4.25    0
+ 0.4   4.25    0
+ 1.2   4.25    0
+ 2.0   4.25    0
+ 2.8   4.25    0
+4.25    2.8   90
+4.25    2.0   90
+4.25    1.2   90
+4.25    0.4   90
+4.25   -0.4   90
+4.25   -1.2   90
+4.25   -2.0   90
+4.25   -2.8   90
+ 2.8  -4.25    0
+ 2.0  -4.25    0
+ 1.2  -4.25    0
+ 0.4  -4.25    0
+-0.4  -4.25    0
+-1.2  -4.25    0
+-2.0  -4.25    0
+-2.8  -4.25    0

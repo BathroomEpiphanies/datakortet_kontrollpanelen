@@ -1,0 +1,13 @@
+(module ISP_SMD_6 (layer F.Cu)
+
+  (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+  (fp_text value Val** (at 0 0) (layer F.CrtYd) hide (effects (font (size 0.1 0.1) (thickness 0.02))))
+
+  (pad 1 smd circle (at -2.54  1.27) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+  (pad 2 smd circle (at -2.54 -1.27) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+  (pad 3 smd circle (at  0.00  1.27) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+  (pad 4 smd circle (at  0.00 -1.27) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+  (pad 5 smd circle (at  2.54  1.27) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+  (pad 6 smd circle (at  2.54 -1.27) (size 1.200 1.200) (layers F.Cu F.Mask) (solder_mask_margin 0.07))
+
+)
